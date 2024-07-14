@@ -1,0 +1,89 @@
+body{
+    background: rgba(206, 215, 226, 0.768);
+}
+#main-portion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.underline{
+    border: 2px solid rgba(12, 135, 223, 0.961); 
+    width: 70px;
+    margin-top: -18px;
+}
+.container{
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.406);
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    background-color: white;
+    margin-top: 3rem;
+    
+}
+#user-introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;  
+    padding-top: 10px;
+}
+#info{
+  text-align: center;  
+  font-family: "Playwrite NZ", cursive;
+  font-size: 13px;
+  font-weight: lighter;
+  width: 350px;
+}
+#person-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+}
+#author{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-weight: bolder;
+     margin-top: 6px;
+}
+#job{
+    color:rgba(12, 135, 223, 0.961);
+    font-weight:normal;
+    font-family: "Chakra Petch", sans-serif;
+    margin-top: 4px;
+}
+.button-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+.pre-btn{
+    font-size: larger;
+    border: none;
+    background: none;
+    color:rgba(12, 135, 223, 0.961);
+    cursor: pointer;
+    padding-right: 4px;
+}
+.next-btn{
+        font-size: larger;
+        border: none;
+        background: none;
+        color:rgba(12, 135, 223, 0.961);
+        cursor: pointer;
+        padding-left: 20px;
+
+}
+.random-btn{
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid;
+    color:rgba(12, 135, 223, 0.961);
+    cursor: pointer;
+    margin-top: 8px;
+}
